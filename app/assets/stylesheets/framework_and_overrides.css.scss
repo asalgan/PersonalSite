@@ -1,45 +1,110 @@
 // import the CSS framework
 @import "bootstrap";
 
+// @font-face {
+//   font-family: 'Hallo sans';    
+//   src: url('/assets/Hallo-sans.otf') format("truetype");
+//   src: url('/assets/Hallo-sans-light.otf') format("truetype");
+//   src: url('/assets/Hallo-sans-black.otf') format("truetype");
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+.container {
+  height: 100%;
+}
+
+// @font-face {
+//   font-family: 'Chunkfive';
+//   src: url('/app/assets/fonts/Chunkfive-webfont.eot') format('embedded-opentype'),
+//      url('/app/assets/fonts/Chunkfive-webfont.woff') format('woff'),
+//      url('/app/assets/fonts/Chunkfive-webfont.ttf') format('truetype'),
+//      url('/app/assets/fonts/Chunkfive-webfont.svg') format('svg');
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
 // make all images responsive by default
 img {
   @extend .img-responsive;
   margin: 0 auto;
-  }
-// override for the 'Home' navigation link
-.navbar-brand {
-  font-size: inherit;
+}
+
+
+.homepage-top {
+  background-image: url('/assets/alan-background.jpg');
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  .name {
+    color: #7F7773;
+    margin-right: 400px;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    position: fixed;
+    padding-left: 70px;
+    margin-top: 300px;
+
+    .first-name {
+      font-family: changa-one, sans-serif;
+      font-size: 70px;
+    }
+
+    .last-name {
+      font-family: wire-one, sans-serif;
+      font-size: 86px;
+    }
   }
 
-// THESE ARE EXAMPLES YOU CAN MODIFY
-// create your own classes
-// to make views framework-neutral
-.column {
-  @extend .col-md-6;
-  @extend .text-center;
+  .tube-first, .tube-second {    
+    height: 100px;
+    padding: 0px 30px;
+    width: 110px;
+    border-left: 2px solid #a7a7a7;
+    border-right: 2px solid #a7a7a7;
   }
-.form {
-  @extend .col-md-6;
+
+  .tube-second {
+    margin-top: 400px;
+    height: 200px;
   }
-.form-centered {
-  @extend .col-md-6;
-  @extend .text-center;
+
+  .about-me {
+    height: 350px;
+    margin-top: 150px;
+
+    .about-me-header {
+      font-size: 40px;
+      font-family: wire-one, sans-serif;
+      text-align: right;
+      color: #7F7773;
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+
+    .about-me-content {
+      margin-top: 20px;
+      font-size: 18px;
+      letter-spacing: 1px;
+      text-align: left;
+      line-height: 26px;
+      font-family: arimo, sans-serif;
+      color: #737D7C;
+    }
   }
-.submit {
-  @extend .btn;
-  @extend .btn-primary;
-  @extend .btn-lg;
+}
+
+.homepage-second {
+  height: 700px;
+
+  .tube {
+    height: 475px;
+    padding: 0px 30px;
+    width: 110px;
+    border-left: 2px solid #a7a7a7;
+    border-right: 2px solid #a7a7a7;
   }
-// apply styles to HTML elements
-// to make views framework-neutral
-main {
-  @extend .container;
-  background-color: #eee;
-  padding-bottom: 80px;
-  width: 100%;
-  margin-top: 51px; // accommodate the navbar
-  }
-section {
-  @extend .row;
-  margin-top: 20px;
-  }
+}
