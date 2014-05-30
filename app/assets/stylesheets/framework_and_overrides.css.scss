@@ -27,6 +27,7 @@ img {
     position: fixed;
     padding-left: 70px;
     margin-top: 300px;
+    opacity: .7;
 
     .first-name {
       font-family: changa-one, sans-serif;
@@ -89,10 +90,22 @@ img {
   }
 }
 
+.what-i-built {
+  height: 200px;
 
+  .link {
+    text-align: center;
 
-
-
+    a {
+      padding: 90px 160px;
+      border-radius: 12px;
+      border: 1px solid #eee;
+      background-image: url('/assets/nogylt.png');
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+  }
+}
 
 
 
