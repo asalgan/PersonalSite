@@ -79,7 +79,31 @@ img {
 }
 
 .homepage-second {
-  height: 700px;
+  height: 750px;
+
+  .about-me {
+    margin-top: 30px;
+
+    h2 {
+      font-size: 40px;
+      font-family: wire-one, sans-serif;
+      text-align: left;
+      color: #7F7773;
+      font-weight: 600;
+      letter-spacing: 1px;
+      margin-top: 15px;
+    }
+
+    p {
+      margin-top: 20px;
+      font-size: 14px;
+      letter-spacing: 1px;
+      text-align: left;
+      line-height: 26px;
+      font-family: arimo, sans-serif;
+      color: #737D7C;
+    }
+  }
 
   .tube {
     height: 475px;
