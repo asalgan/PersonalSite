@@ -39,4 +39,5 @@ $(document).ready(function() {
 
 	$('.name').followTo(710);
 
+
 });

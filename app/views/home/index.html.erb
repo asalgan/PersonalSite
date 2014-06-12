@@ -1,40 +1,47 @@
 <section class="homepage-top">
 	<div class="container">
 		<h1 class="name col-md-offset-2"><span class="first-name">Alan</span><span class="last-name">Salganik</span></h1>
-		<div class="tube-first col-md-offset-4">
-		</div>
 		<div class="about-me col-md-6 col-md-offset-5">
 			<h1 class="about-me-header">always learning.</h1>
 			<p class="about-me-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendreri.</p>
 		</div>
-		<div class="tube-second col-md-offset-4">
 	</div>
 </section>
+
 
 <section class="homepage-second">
 	<div class="container">
 		<div class="about-me col-md-3">
 			<h2>first</h2>
-			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
+			<p>I graduated from Loyola University Chicago in 2010 with a degree in finance and economics. No thoughts of web development on the horizon.</p>
 			<h2>then</h2>
-			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
+			<p>I spent some time working at UBS Financial Services, but quit to co-found and launch <a href="http://www.funderhut.com" target="_blank">FunderHut</a>, a community-focused crowdfunding platform.</p>
 			<h2>now</h2>
-			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
+			<p>I'm just about done with <a href="http://www.starterschool.com" target="_blank">Starter School</a>, where I learned the basics of Ruby on Rails, HTML, CSS/Less/Sass, JavaScript/jQuery, UI/UX, Git, etc.</p>
 			<h2>after</h2>
 			<p>??? .. build awesome things.</p>
 		</div>
-		<div class="tube col-md-offset-4"></div>
-		
+		<div class="what-i-built col-md-6 col-md-offset-3">
+			<h2 class="what-i-built-content">While learning to build products, I built <a href="http://restaurantsearch.herokuapp.com/" target="_blank">NoGylt</a>, an app to help find healthy food options near you, and <a href="http://honeybeehr.com/" target="_blank">Honeybee</a>, an applicant tracking tool for small businesses. Scroll down to check them out!</h2>
+		</div>
 	</div>	
 </section class="homepage-second">
 
-<section class="what-i-built">
-	<div class="container">
+<hr>
 
+<section class="my-apps">
+	<div class="container">
+		<img src="/assets/nogylt-logo.png" alt="" class="nogylt-logo col-md-offset-5">
+		<img src="/assets/nogylt.png" alt="" class="nogylt-img col-md-12">
+		<h3 class="built-with col-md-12">Ruby on Rails <span class="bars"> // </span> Google Maps API <span class="bars"> // </span> SQLite <span class="bars"> // </span> Bootstrap/Sass</h3>
+		<p class="my-apps-content-lead col-md-12">GOAL</p>
+		<p class="my-apps-content col-md-12">When I wanted to find a healthy meal near me, I was tired of having to first check what's near me, then cross-reference menu items at each place comparing nutritional information. I wanted a tool where I can simply enter where I am, the maximum number of calories I want to consume that meal, and what cuisine I'm in the mood for and have it find specific items that meet my criteria.</p>
+		<p class="my-apps-content-lead col-md-12">CHALLENGES</p>
+		<p class="my-apps-content col-md-12">I had to pull lots of food data from various sources and input that data into my database. I also needed the Google Maps API to cross-reference restaurant names that it found within my search radius with the restaurant names I entered into my database to pull up their nutritional nutritional information.</p>
+		<p class="my-apps-content-lead col-md-12">SOLUTIONS</p>
+		<p class="my-apps-content col-md-12">I found a crawler called <a href="http://www.kimonolabs.com/learn/intro">Kimono</a> that I used to crawl nutritional data from restaurant websites. I then used the <a href="https://github.com/Empact/roo">Roo gem</a> to pull the data from my spreadsheet and seed the database. I was able to seed approximately 30 restaurants worth of food data and then stopped. I realized that gathering all of the nutritional information for the tens of thousands of restaurants out there is damn near impossible and I didn't want to spend years doing so, so I moved on to my next project.</p>
 	</div>
 </section>
-
-
 
 
 <section id="set-1">
