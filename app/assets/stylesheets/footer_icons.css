@@ -42,14 +42,18 @@
   -webkit-font-smoothing: antialiased;
 }
 
-.hi-icon-mobile:before {
+/*.hi-icon-mobile:before {
   content: "\e009";
 }
 
 .hi-icon-screen:before {
   content: "\e00a";
-}
+}*/
 
+/*.glyphicon-plus:before {
+  content: "\2b";
+}
+*/
 
 /* Effect 1 */
 .hi-icon-effect-1 .hi-icon {

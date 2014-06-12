@@ -126,6 +126,7 @@ hr {
 
 .my-apps {
   min-height: 1900px;
+  margin-bottom: 50px;
 
   .nogylt-logo {
     margin-top: 5%;
@@ -163,6 +164,12 @@ hr {
     line-height: 28px;
     font-weight: 300;
     color: #181818;
+  }
+
+  .honeybee-logo {
+    text-align: center;
+    margin-top: 10%;
+    font-size: 40px;
   }
 }
 
